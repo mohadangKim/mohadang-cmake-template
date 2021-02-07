@@ -1,0 +1,15 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 3.10 )
+# project setting
+SET(BINARY ${CMAKE_PROJECT_NAME} )
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR} )
+SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR} )
+
+# set source and headers
+SET (SRC_FILES
+     main.cpp
+     utils.cpp
+    )
+
+# build 
+ADD_EXECUTABLE( ${BINARY}-run  ${SRC_FILES} )
+ADD_LIBRARY( ${BINARY}-lib STATIC ${SRC_FILES} )

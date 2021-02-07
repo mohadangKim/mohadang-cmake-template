@@ -1,0 +1,2 @@
+/usr/bin/ar qc libProject-lib.a  CMakeFiles/Project-lib.dir/main.cpp.o CMakeFiles/Project-lib.dir/utils.cpp.o
+/usr/bin/ranlib libProject-lib.a

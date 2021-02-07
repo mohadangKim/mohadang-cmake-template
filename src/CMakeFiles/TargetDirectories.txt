@@ -1,0 +1,4 @@
+/home/red/workspace/tester/src/CMakeFiles/rebuild_cache.dir
+/home/red/workspace/tester/src/CMakeFiles/edit_cache.dir
+/home/red/workspace/tester/src/CMakeFiles/Project-run.dir
+/home/red/workspace/tester/src/CMakeFiles/Project-lib.dir
