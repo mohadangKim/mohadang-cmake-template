@@ -2,6 +2,7 @@ CMAKE_MINIMUM_REQUIRED (VERSION 3.10)
 SET(project_name "hello-cmake")
 PROJECT(${project_name})
 
+# show verbose message
 SET( CMAKE_VERBOSE_MAKEFILE true )
 
 INCLUDE_DIRECTORIES (include)
